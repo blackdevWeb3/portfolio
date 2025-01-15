@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 // components
 import Iconify from '../components/Iconify';
 import SocialLinks from '../components/social/SocialLinks';
-import HeadingAnimate from '../components/animate/HeadingAnimate';
+
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mock
 import { contactEmail } from '../mock/profile';

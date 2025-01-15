@@ -3,7 +3,7 @@ import React from 'react';
 import AnimatedLottie from '../components/Lottie';
 import TechSkillIcon from '../components/skills/TechIcon';
 import ListItem from '../components/skills/ListItem';
-import HeadingAnimate from '../components/animate/HeadingAnimate';
+
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mock
 import { BACKEND_DESCRIPTIONS, BACKEND_SKILLS, FRONTEND_DESCRIPTIONS, FRONTEND_SKILLS } from '../mock/tech-skills';

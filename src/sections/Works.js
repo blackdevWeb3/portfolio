@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // components
 import Iconify from '../components/Iconify';
 import ProjectCard from '../components/works/ProjectCard';
-import HeadingAnimate from '../components/animate/HeadingAnimate';
+
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mocks
 import { PROJECTS, PROJECT_CATEGORY, TABS } from '../mock/projects';
