@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { motion } from 'framer-motion';
+
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 // components
 import SocialLinks from '../components/social/SocialLinks';
@@ -26,17 +26,7 @@ export default function HomeHero() {
         <div className="animation-delay-3000 absolute -top-14 left-20 h-56 w-56 animate-blob rounded-full bg-yellow-400 opacity-50 mix-blend-multiply blur-2xl filter" />
       </div>
       <div className="z-50 flex flex-col items-center space-y-5 sm:space-y-10">
-         <motion.div
-          initial={{ y: -200, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{
-            type: 'spring',
-            bounce: 0.5,
-            duration: 3,
-            delay: 1.7,
-          }}
-          viewport={{ once: true }}
-        ></motion.div> 
+ 
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">
           Hi, Im{' '}
           <span className="text-primary-700 dark:text-primary-300">
